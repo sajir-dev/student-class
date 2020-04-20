@@ -263,7 +263,7 @@ sortOnMarks = (sub) => {  // sort the list based on marks for a given subject
     }
     return classObj.students
 }
-console.log (sortOnMarks("Maths"))
+//console.log (sortOnMarks("Maths"))
 
 
 totalMarkOfStudent = ( idnum ) => { //total mark of a given id 
@@ -275,19 +275,7 @@ totalMarkOfStudent = ( idnum ) => { //total mark of a given id
     return markSum
 }
 
-module.exports = classObj
-module.exports = totalMarkOfStudent
-module.exports = sortOnMarks
-module.exports = sortOnName
-module.exports = getAvg
-module.exports = getTopper
-module.exports = editMarks
-module.exports = removeStudent
-module.exports = deleteSubject
-module.exports = addMarksForSubject
-module.exports = addMarks
-module.exports = createStudent
-module.exports = changeTeacher
+//totalMarkOfStudent.exports = totalMarkOfStudent
 
 //console.log(changeTeacher("Bindu"))
 
@@ -315,6 +303,6 @@ module.exports = changeTeacher
 
 //console.log (sortOnMarks("Maths"))
 
-//console.log(totalMarkOfStudent('101'))
+console.log(totalMarkOfStudent('101'))
 
 //console.log(JSON.stringify(classObj.students, null, 2))
