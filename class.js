@@ -233,9 +233,7 @@ console.log (sortingMarks("Maths"))
 
 //console.log (getAvg ("Maths"))
 
-
 //console.log(typeof(classObj.students[3].marks["English"]))
-
 
 //console.log(JSON.stringify(classObj.students, null, 2))
 
